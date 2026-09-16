@@ -1,0 +1,57 @@
+#main
+{
+    background-color: bisque;
+    width:100%;
+    border: 0;
+    margin: 0;
+}
+.division{
+    width:80%;
+    padding: 10px;
+margin: auto;
+}
+.section1
+{
+    display: flex;
+    width:100%;
+    padding: 10px;
+}
+
+.div1
+{margin: auto;
+    width: 30%;
+    padding: 10px;
+}
+
+.div2
+{
+    width: 40%;
+    padding: 10px;
+    text-align: center;
+}
+
+.div1
+{
+    width: 30%;
+    padding: 10px;
+}
+
+im1
+.btn1
+{
+ background-color: red;
+ border-radius: 12px;
+}
+
+.btn2
+{
+background-color: red;
+border-radius: 12px;
+}
+li{
+    display: flex;
+    width: 100%;
+    margin: auto;
+
+
+}

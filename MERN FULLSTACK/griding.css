@@ -1,0 +1,52 @@
+#main
+{
+    width: 100%;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header
+{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+gap:1%;
+}
+
+p
+{
+    color: white;
+}
+
+input
+{
+margin: 5px;  
+}
+
+ul
+{   color: white;
+    background-color: #423A39;
+    display: flex;
+    gap: 1%;
+padding: 3px;
+}
+
+li
+{
+list-style-type: none;
+}
+
+.ab
+{border: 1px solid black;
+    display: grid;
+grid-template-columns: repeat(4,2fr);
+gap: 10%;
+padding: 10px;
+}
+.bc
+{
+    display: flex;
+}
