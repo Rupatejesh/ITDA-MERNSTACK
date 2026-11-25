@@ -1,0 +1,22 @@
+{
+  "name": "asr-forever-multipage",
+  "version": "2.0.0",
+  "description": "Alluri Sita Rama Raju Forever — Full-Stack Tribal Awareness, Governance, Livelihoods & Community Portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "ASR",
+    "Alluri Sita Rama Raju",
+    "PESA",
+    "Tribal Empowerment",
+    "Node.js",
+    "REST API"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

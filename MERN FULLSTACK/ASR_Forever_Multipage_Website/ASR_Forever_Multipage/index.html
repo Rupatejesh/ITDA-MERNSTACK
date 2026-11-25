@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alluri Sita Rama Raju Forever</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="home">
+
+<!-- =========================================
+     ASR CINEMATIC WEBSITE LAUNCH
+========================================= -->
+<div id="curtainScreen">
+    <div class="cinema-slide slide-one">
+        <img src="images/asr-home.png" alt="ASR Forever Home">
+    </div>
+
+    <div class="cinema-slide slide-two">
+        <img src="images/asr-launch.png" alt="Alluri Sita Rama Raju Forever">
+    </div>
+
+    <div id="flowerCelebration"></div>
+
+    <div class="launch-content">
+        <h2>THE LIVING LEGACY OF</h2>
+
+        <div class="fire-water-title">
+            ALLURI SITA RAMA RAJU
+            <br>
+            FOREVER
+        </div>
+
+        <p>
+            🌿 Tribal Roots • Strong People • Brighter Tomorrow 🌿
+        </p>
+
+        <div class="launch-actions">
+            <button type="button" class="launch-button" onclick="startASRLaunch()">
+                🎭 LAUNCH WEBSITE
+            </button>
+            <button type="button" class="skip-launch-btn" onclick="skipASRLaunch()">
+                Skip Intro →
+            </button>
+        </div>
+    </div>
+
+    <div class="curtain left-curtain"></div>
+    <div class="curtain right-curtain"></div>
+</div>
+
+<!-- =====================================
+     NAVIGATION
+====================================== -->
+<nav class="navbar">
+    <div class="logo">
+        ⛰ ALLURI SITA RAMA RAJU <span>FOREVER</span>
+    </div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="land.html">Land</a>
+        <a href="pesa.html">PESA</a>
+        <a href="santha.html">Santha</a>
+        <a href="tourism.html">Tourism</a>
+        <a href="sports.html">Sports</a>
+        <a href="culture.html">Culture</a>
+        <a href="health.html">Health</a>
+        <a href="pgrs.html">PGRS</a>
+        <a href="business.html">Business</a>
+        <a href="schemes.html">Schemes</a>
+        <a href="gallery.html">Gallery</a>
+    </div>
+</nav>
+
+<!-- =====================================
+     HOME HERO
+====================================== -->
+<section class="hero">
+    <div class="mist-layer mist-one"></div>
+    <div class="mist-layer mist-two"></div>
+    <div class="mist-layer mist-three"></div>
+
+    <div class="hero-content">
+        <div class="small-title">
+            EASTERN GHATS • TRIBAL YOUTH • DEVELOPMENT
+        </div>
+
+        <h1>
+            Our Land.<br>
+            Our Culture.<br>
+            Our Future.
+        </h1>
+
+        <p>
+            A full-stack digital awareness and community portal connecting tribal youth
+            with land-rights awareness, Gram Sabha participation, livelihoods, tourism,
+            sports, culture, health, PGRS grievance tracking, entrepreneurship and government schemes.
+        </p>
+
+        <div class="hero-actions">
+            <a href="land.html" class="button">Start Exploring →</a>
+            <a href="pgrs.html" class="button-outline">File / Track PGRS</a>
+            <button type="button" class="button-outline" onclick="replayASRLaunch()">🎭 Replay Launch</button>
+        </div>
+    </div>
+</section>
+
+<!-- =====================================
+     10 WEBSITE TOPICS + LIVE STATS & FILTERS
+====================================== -->
+<section class="container">
+
+    <div id="homeStatsBar" class="stats-bar">
+        <div class="stat-box">
+            <div class="stat-value">10</div>
+            <div class="stat-label">Core ASR Missions</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value">62</div>
+            <div class="stat-label">Action & Rights Guides</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value">2</div>
+            <div class="stat-label">PGRS Grievances Logged</div>
+        </div>
+        <div class="stat-box">
+            <div class="stat-value">3</div>
+            <div class="stat-label">Youth & Community Members</div>
+        </div>
+    </div>
+
+    <div class="section-title">
+        <h2>10 Missions • One Future</h2>
+        <p>Filter by focus area, preview key guides inside each grid card, or open any dedicated webpage.</p>
+    </div>
+
+    <div id="homeFilterBar" class="filter-bar">
+        <button type="button" class="filter-btn active" data-category="all">All Missions</button>
+        <button type="button" class="filter-btn" data-category="Rights & Governance">Rights & Governance</button>
+        <button type="button" class="filter-btn" data-category="Livelihoods & Markets">Livelihoods & Markets</button>
+        <button type="button" class="filter-btn" data-category="Youth & Heritage">Youth & Heritage</button>
+        <button type="button" class="filter-btn" data-category="Safety & Welfare">Safety & Welfare</button>
+        <input id="homeMissionSearch" class="search-input" type="search" placeholder="Search missions, coffee, PESA, PGRS...">
+    </div>
+
+    <div id="homeMissionsGrid" class="cards">
+        <div class="card">
+            <div class="card-body">
+                <div class="icon">🌳</div>
+                <h3>Tribal Land Protection</h3>
+                <p>Land-rights awareness, records and lawful protection.</p>
+            </div>
+            <div class="card-actions">
+                <a class="button" href="land.html">Explore →</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="icon">🏡</div>
+                <h3>PESA & Gram Sabha</h3>
+                <p>Community participation and village awareness.</p>
+            </div>
+            <div class="card-actions">
+                <a class="button" href="pesa.html">Explore →</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="icon">⛺</div>
+                <h3>Tribal Santha</h3>
+                <p>Local vendors, farmers and livelihoods.</p>
+            </div>
+            <div class="card-actions">
+                <a class="button" href="santha.html">Explore →</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="icon">🏞️</div>
+                <h3>Tribal Tourism</h3>
+                <p>Local people creating tourism opportunities.</p>
+            </div>
+            <div class="card-actions">
+                <a class="button" href="tourism.html">Explore →</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="icon">🏹</div>
+                <h3>Tribal Sports</h3>
+                <p>Archery, football, athletics and training.</p>
+            </div>
+            <div class="card-actions">
+                <a class="button" href="sports.html">Explore →</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="icon">💃</div>
+                <h3>Culture</h3>
+                <p>Dhimsa, languages, heritage and museums.</p>
+            </div>
+            <div class="card-actions">
+                <a class="button" href="culture.html">Explore →</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="icon">🚑</div>
+                <h3>Disaster & Health</h3>
+                <p>Emergency connectivity and safer hill communities.</p>
+            </div>
+            <div class="card-actions">
+                <a class="button" href="health.html">Explore →</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="icon">📢</div>
+                <h3>PGRS</h3>
+                <p>Know, complain, track and follow up.</p>
+            </div>
+            <div class="card-actions">
+                <a class="button" href="pgrs.html">Explore →</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="icon">☕</div>
+                <h3>Entrepreneurship</h3>
+                <p>Coffee, turmeric, honey and startups.</p>
+            </div>
+            <div class="card-actions">
+                <a class="button" href="business.html">Explore →</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="icon">🎓</div>
+                <h3>Government Schemes</h3>
+                <p>Know schemes, documents and opportunities.</p>
+            </div>
+            <div class="card-actions">
+                <a class="button" href="schemes.html">Explore →</a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <div class="icon">🖼️</div>
+                <h3>ASR Visual Gallery</h3>
+                <p>Natural landscapes, culture, markets and heritage.</p>
+            </div>
+            <div class="card-actions">
+                <a class="button" href="gallery.html">Explore →</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="quote">
+        “Our roots give us identity.
+        Awareness gives us strength.
+        Education, unity and opportunity
+        build our future.”
+    </div>
+</section>
+
+<!-- =========================================
+     ASR VISUAL GALLERY PREVIEW
+========================================= -->
+<section class="home-gallery">
+    <div class="home-gallery-heading">
+        <p>🌿 EXPLORE • EXPERIENCE • REMEMBER</p>
+
+        <h2>
+            DISCOVER THE BEAUTY OF
+            <span>ALLURI SITA RAMA RAJU</span>
+        </h2>
+
+        <p class="gallery-subtitle">
+            Eastern Ghats • Tribal Culture • Coffee • Tourism • Sports
+        </p>
+    </div>
+
+    <div class="home-gallery-grid">
+        <a href="gallery.html" class="home-gallery-card" style="text-decoration:none;">
+            <img src="images/easternghats.jpg" alt="Eastern Ghats">
+            <div class="home-gallery-overlay">
+                <h3>Eastern Ghats</h3>
+                <p>Mountains • Forests • Mist</p>
+            </div>
+        </a>
+
+        <a href="gallery.html" class="home-gallery-card" style="text-decoration:none;">
+            <img src="images/dhimsa.jpg" alt="Dhimsa Dance">
+            <div class="home-gallery-overlay">
+                <h3>Dhimsa Culture</h3>
+                <p>Dance • Heritage • Community</p>
+            </div>
+        </a>
+
+        <a href="gallery.html" class="home-gallery-card" style="text-decoration:none;">
+            <img src="images/coffee.jpg" alt="Tribal Coffee">
+            <div class="home-gallery-overlay">
+                <h3>Tribal Coffee</h3>
+                <p>Plantations • Farmers • Livelihoods</p>
+            </div>
+        </a>
+    </div>
+
+    <div class="gallery-button-area">
+        <a href="gallery.html" class="gallery-main-button">
+            EXPLORE FULL VISUAL GALLERY →
+        </a>
+    </div>
+</section>
+
+<footer>
+    <strong>ALLURI SITA RAMA RAJU FOREVER</strong>
+    <br><br>
+    Tribal Roots • Strong People • Brighter Tomorrow
+</footer>
+
+<script src="js/asr-data.js"></script>
+<script src="js/script.js"></script>
+</body>
+
+</html>
